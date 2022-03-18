@@ -248,3 +248,12 @@ th{
 td{
 	padding: 5px;
 }
+
+div.caption{
+	text-align: center;
+	text-decoration: none;
+	font-size:70%;
+	position:relative;
+	top:-45px;
+	
+}
