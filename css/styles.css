@@ -125,7 +125,7 @@ p{
 }
 
 p {
-	width: 50%;
+	width: 60%;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: left;
@@ -169,7 +169,7 @@ p.friends {
 		/* HEADINGS */
 h1{
 	font-size:250%;
-	width: 500px;
+	width: 600px;
 	margin: auto;
 	margin-bottom: 25px;
 	text-align: center;
@@ -181,7 +181,7 @@ h1#title{
 }
 
 h2{
-	width:400px;
+	width:500px;
 	margin-top:100px;
 	margin-bottom: 5px;
 	margin-left: auto;
@@ -192,7 +192,7 @@ h2{
 }
 
 h2.wideh2{
-	width:600px;
+	width:800px;
 }
 
 		/* LISTS */
@@ -202,7 +202,7 @@ ul {
 	padding: 5px;
 	list-style-position:inside;
 	text-align: left;
-	width: 60%;
+	width: 50%;
 }
 
 ul#zines{
@@ -270,7 +270,6 @@ img {
 	display: block;
 	margin: auto;
 	border-radius:5px;
-	border:1px dotted black;
 }
 
 img.zines{
@@ -284,16 +283,18 @@ img.friends{
 
 img#CLMP{
 	width: 250px;
+	border:1px dotted #AEDCDF;
 }
 
 img#Duotrope{
 	width: 250px;
+	border:1px dotted #AEDCDF;
 }
 
 img#heart {
 	width: 100px;
 	margin:auto;
-	border:1px dotted #20060F;
+	border:1px dotted #AEDCDF;;
 }
 
 
@@ -324,5 +325,5 @@ img#me{
 	width: 200px;
 	margin: auto;
 	display: flex;
-	border: 1px dotted #44191b;
+	border: 1px dotted #AEDCDF;;
 }
