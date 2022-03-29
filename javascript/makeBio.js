@@ -15,7 +15,6 @@ function makeBio(authorName, authorBio) {
 }
 
 
-
 /* Sort preexisting author/artist bio links on the homepage */
 function replaceBioLinks(){
   var linksArraySorted = sortLinks(false);
@@ -75,9 +74,4 @@ function compareText(a1, a2) {
   var t2_lastName = t2_split[t2_split.length-1];
 
   return t1_lastName > t2_lastName ? 1 : (t1_lastName < t2_lastName ? -1 : 0);
-}
-
-function getBioLinks(){
-  document.getElementsByClassName("bio");
-
 }
