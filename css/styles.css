@@ -68,7 +68,7 @@ li.bios a:link{
 	text-decoration:none;
 }
 
-li.friends a:link{
+li.databases a:link{
 	background:none;
 	border:none;
 }
@@ -159,7 +159,7 @@ p.bios a:active{
 	border-color:#AEDCDF;
 }
 
-p.friends {
+p.databases {
 	width: 100%;
 	border:none;
 }
@@ -207,20 +207,25 @@ ul {
 
 ul#zines{
 	margin: auto;
+	margin-top:14px;
 	display: flex;
 	justify-content: center;
+	align-items:center;
 	border: 1px dotted #AEDCDF;
 	border-radius:4px;
+	flex-wrap:wrap;
 }
 
-ul#friends{
+ul#databases{
 	margin: auto;
-	margin-top:20px;
+	margin-top:10px;
+	margin-bottom:100px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	border: 1px dotted #AEDCDF;
 	border-radius:4px;
+	flex-wrap:wrap;
 }
 
 li {
@@ -228,7 +233,8 @@ li {
 	padding: 1px;
 }
 
-li.bios{
+li.bios{	display:flex;
+	flex-wrap:wrap;
 	line-height: 1.7em;
 }
 
@@ -240,7 +246,7 @@ li.zines{
 	border:none;
 }
 
-li.friends{
+li.databases{
 	display: inline;
 	margin: 5px;
 	margin-bottom: 20px;
@@ -274,7 +280,7 @@ img {
 
 img.zines{
 	border-radius:0px;
-	border:none;
+	border:1px dotted #AEDCDF;
 }
 
 img.friends{
@@ -289,6 +295,11 @@ img#CLMP{
 img#Duotrope{
 	width: 250px;
 	border:1px dotted #AEDCDF;
+}
+
+img#ShortList{
+	width: 200px;
+	border: 1px dotted #AEDCDF;
 }
 
 img#heart {
