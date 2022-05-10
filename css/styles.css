@@ -209,11 +209,13 @@ ul#zines{
 	margin: auto;
 	margin-top:14px;
 	display: flex;
-	justify-content:center;
+	justify-content:flex-start;
 	align-items:center;
 	border: 1px dotted #AEDCDF;
 	border-radius:4px;
 	flex-wrap:wrap;
+	padding-left:50px;
+	padding-right:auto;
 }
 
 ul#databases{
@@ -293,11 +295,16 @@ img#CLMP{
 }
 
 img#Duotrope{
-	width: 250px;
+	width: 150px;
 	border:1px dotted #AEDCDF;
 }
 
 img#ShortList{
+	width: 100px;
+	border: 1px dotted #AEDCDF;
+}
+
+img#NewPages{
 	width: 200px;
 	border: 1px dotted #AEDCDF;
 }
