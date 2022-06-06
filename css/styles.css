@@ -230,6 +230,10 @@ ul#databases{
 	flex-wrap:wrap;
 }
 
+.form{
+	text-align: center;
+}
+
 li {
 	margin: 2px;
 	padding: 1px;
