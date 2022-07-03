@@ -1,7 +1,9 @@
 import json
 import os
 
-json_file = open("../contribs_i6.json", "r")
+path = input("Enter filepath: ")
+
+json_file = open("path", "r")
 json_data = json_file.read()
 #print(json_data)
 authors = json.loads(json_data)["authors"]

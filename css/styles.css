@@ -111,7 +111,7 @@ h2 a:active{
 
 
 		/* BODY TEXT */
-p,h1,h2,ul{
+p,h1,h2,ul,table{
 	border: 1px dotted #AEDCDF;
 	border-radius:4px;
 	padding:5px;
@@ -120,17 +120,38 @@ p,h1,h2,ul{
 }
 
 		/* PARAGRAPHS */
-p{
+p, table{
 	padding:14px;
-}
-
-p {
 	width: 60%;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: left;
 	margin-bottom: 14px;
 	margin-top: 14px;
+}
+
+table, td{
+	border: 1px dotted #AEDCDF;
+	border-radius: 4px;
+}
+
+td{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+td:hover{
+	background-color:#B1AF8F;
+	color:#20060F;
+}
+
+table tr td a:link{
+	border: none;
+}
+
+td:hover a{
+	color:#20060F;
 }
 
 p.zines {
