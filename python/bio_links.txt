@@ -31,6 +31,7 @@
 <a class="bio" href="bios/Abigail_Eckstine.html">Abigail Eckstine</a>
 <a class="bio" href="bios/Sean_Ennis.html">Sean Ennis</a>
 <a class="bio" href="bios/Ozzýka_Farah.html">Ozzýka Farah</a>
+<a class="bio" href="bios/Michelle_Faulkner.html">Michelle Faulkner</a>
 <a class="bio" href="bios/Frank_William_Finney.html">Frank William Finney</a>
 <a class="bio" href="bios/Clem_Flowers.html">Clem Flowers</a>
 <a class="bio" href="bios/Tracey_Foster.html">Tracey Foster</a>
@@ -63,6 +64,7 @@
 <a class="bio" href="bios/Clyde_Liffey.html">Clyde Liffey</a>
 <a class="bio" href="bios/Leah_Lopez.html">Leah Lopez</a>
 <a class="bio" href="bios/Mario_Loprete.html">Mario Loprete</a>
+<a class="bio" href="bios/Ryan_Love.html">Ryan Love</a>
 <a class="bio" href="bios/Tre_Luna.html">Tre Luna</a>
 <a class="bio" href="bios/Dorothy_Lune.html">Dorothy Lune</a>
 <a class="bio" href="bios/Stencil_Mageddon.html">Stencil Mageddon</a>
