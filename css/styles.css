@@ -45,6 +45,12 @@ body {
 
 
 
+		/* CLASSES */
+.noborder{
+	border: none;
+}
+
+
 		/* LINKS */
 a:link {
 	color: #AD2E57;
@@ -55,7 +61,11 @@ a:link {
 	text-decoration:none;
 }
 
-li.zines a:link{
+a.noborder{
+	border: none;
+}
+
+li.zines a:link, li.zines a:active:visited, a:active:hover{
 	background:none;
 	border:none;
 }
@@ -306,8 +316,8 @@ img {
 }
 
 img.zines{
-	border-radius:0px;
-	border:1px dotted #AEDCDF;
+	width: 150px;
+	border-radius: 0px;
 }
 
 img.friends{
