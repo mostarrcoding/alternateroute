@@ -164,9 +164,21 @@ td:hover a{
 	color:#20060F;
 }
 
+p.center{
+	text-align: center;
+}
+
+p.justify{
+	text-align: justify;
+}
+
 p.zines {
 	width: 100%;
 	border:none;
+}
+
+p.indent{
+	text-indent:50px;
 }
 
 p.bios{
@@ -324,24 +336,9 @@ img.friends{
 	border:1px dotted #AEDCDF;
 }
 
-img#CLMP{
-	width: 250px;
-	border:1px dotted #AEDCDF;
-}
-
-img#Duotrope{
-	width: 150px;
-	border:1px dotted #AEDCDF;
-}
-
-img#ShortList{
+img#database{
 	width: 100px;
-	border: 1px dotted #AEDCDF;
-}
-
-img#NewPages{
-	width: 200px;
-	border: 1px dotted #AEDCDF;
+	border:1px dotted #AEDCDF;
 }
 
 img#heart {
@@ -351,14 +348,12 @@ img#heart {
 }
 
 
-
 		/* SPACING */
 br.tall{
 	display: block;
 	content: "";
 	margin-top: 10px;
 }
-
 
 
 		/* BIO PAGE */
@@ -370,8 +365,6 @@ p#bio {
 	left: 43%;
 	top: 22%;
 }
-
-
 
 		/* ABOUT THE AUTHOR PAGE */
 img#me{
