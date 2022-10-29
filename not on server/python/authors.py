@@ -2,7 +2,7 @@ import os
 
 def authors():
     # assign directory
-    directory = 'G:\\My Drive\\Writing\\Poetry\\[ALTERNATE ROUTE]\\Issue 7 - July 31 2022\\Bios'
+    directory = '/media/mstarr/Alice/writing/poetry/[ALTERNATE ROUTE]/Issue 8 - Octobor 31 2022/bios/'
 
     # iterate over files in
     # that directory

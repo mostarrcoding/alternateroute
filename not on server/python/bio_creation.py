@@ -1,28 +1,6 @@
 #import json
 import os
 
-"""
-path = input("Enter filepath: ")
-json_file = open("path", "r")
-json_data = json_file.read()
-#print(json_data)
-authors = json.loads(json_data)["authors"] ##AUTHORS~~~(of json file,
-                                                        # i.e. of preexisting shtick)
-#print(authors)
-bioTemplate_file = open("../bio_template.html", "r")
-bioTemplate_string = bioTemplate_file.read()
-for author in authors:
-    #print(author["name"])
-    #print(author["bio"])
-    name = author["name"]
-    bio = author["bio"]
-    authorBioHTML = bioTemplate_string.replace("{{creator_name}}", name).replace("{{creator bio}}", bio)
-    #print(authorBioHTML)
-    bio_html = open("../bios/" + name.replace(" ", "_") + ".html", "w")
-    bio_html.write(authorBioHTML)
-    bio_html.close()
-"""
-
 def make_href_list():
     path = r"../bios/"
     bio_HTML_files = os.listdir(path)
@@ -39,12 +17,9 @@ def make_href_list():
 make_href_list()
 
 
-#with open("contribs_i6.json", "r") as json_file:
-    #json_data = json.load(json_file)
-    #print(json_data)
 
 def make_bio_HTML_files():
-    bioTemplate_file = open("../bio_template.html", "r")
+    bioTemplate_file = open("../not on server/bio_template.html", "r")
     bioTemplate_string = bioTemplate_file.read()
     import authors as auth
     authors = auth.authors()
@@ -53,7 +28,7 @@ def make_bio_HTML_files():
         #print(author["name"])
         #print(author["bio"])
         name = author
-        bio_file = open("G:\\My Drive\\Writing\\Poetry\\[ALTERNATE ROUTE]\\Issue 7 - July 31 2022\\Bios\\" + name + ".txt", "r")
+        bio_file = open("/media/mstarr/Alice/writing/poetry/[ALTERNATE ROUTE]/Issue 8 - Octobor 31 2022/bios/" + name + ".txt", "r")
         bio = bio_file.read()
         bio = bio.replace("\n", "<br />")
         authorBioHTML = bioTemplate_string.replace("{{creator_name}}", name).replace("{{creator bio}}", bio).replace("â€™", "'")
@@ -61,3 +36,6 @@ def make_bio_HTML_files():
         bio_html = open("../bios/" + name.replace(" ", "_") + ".html", "w", encoding="utf-8")
         bio_html.write(authorBioHTML)
         bio_html.close()
+
+
+make_bio_HTML_files()
