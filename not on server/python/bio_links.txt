@@ -6,6 +6,7 @@
 <a class="bio" href="bios/Laszlo_Aranyi.html">Laszlo Aranyi</a>
 <a class="bio" href="bios/Shaurya_Arya.html">Shaurya Arya</a>
 <a class="bio" href="bios/Isabelle_B.L.html">Isabelle B.L</a>
+<a class="bio" href="bios/Robin_Bach.html">Robin Bach</a>
 <a class="bio" href="bios/Tom_Ball.html">Tom Ball</a>
 <a class="bio" href="bios/Dave_Barrett.html">Dave Barrett</a>
 <a class="bio" href="bios/Gary_Beck.html">Gary Beck</a>
@@ -25,6 +26,7 @@
 <a class="bio" href="bios/Roy_Christopher.html">Roy Christopher</a>
 <a class="bio" href="bios/Susan_Cornford.html">Susan Cornford</a>
 <a class="bio" href="bios/Scott_Cumming.html">Scott Cumming</a>
+<a class="bio" href="bios/Bryn_Dalton.html">Bryn Dalton</a>
 <a class="bio" href="bios/Mary_Christine_Delea.html">Mary Christine Delea</a>
 <a class="bio" href="bios/CJ_Delous.html">CJ Delous</a>
 <a class="bio" href="bios/Shiksha_Dheda.html">Shiksha Dheda</a>
@@ -126,6 +128,7 @@
 <a class="bio" href="bios/Drewry_Scott.html">Drewry Scott</a>
 <a class="bio" href="bios/Jean-Mark_Sens.html">Jean-Mark Sens</a>
 <a class="bio" href="bios/Samantha_Morgan_Silverstein.html">Samantha Morgan Silverstein</a>
+<a class="bio" href="bios/J.R._Solonche.html">J.R. Solonche</a>
 <a class="bio" href="bios/Laura_Stamps.html">Laura Stamps</a>
 <a class="bio" href="bios/Michael_Starr.html">Michael Starr</a>
 <a class="bio" href="bios/Pramod_Subbaraman.html">Pramod Subbaraman</a>

@@ -38,7 +38,7 @@ def make_bio_HTML_files():
         bio_html.close()
 
 
-make_bio_HTML_files()
+#make_bio_HTML_files()
 
 def make_list_for_copyright_page():
     path = "/media/mstarr/Alice/writing/poetry/[ALTERNATE ROUTE]/Issue 8 - Octobor 31 2022/bios/"
@@ -48,4 +48,4 @@ def make_list_for_copyright_page():
     sorted_bio_HTML_files = sorted_bio_HTML_files.replace("'","").replace("[","").replace("]","").replace("_"," ").replace(".txt","")
     print(sorted_bio_HTML_files)
 
-make_list_for_copyright_page()
+#make_list_for_copyright_page()
