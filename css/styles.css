@@ -135,7 +135,7 @@ p,h1,h2,ul,table{
 		/* PARAGRAPHS */
 p, table{
 	padding:14px;
-	width: 60%;
+	width: 55%;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: left;
@@ -221,23 +221,21 @@ h1{
 	text-align: center;
 }
 
-h1#title{
+#title{
 		margin-top: 25px;
 		padding: 3px;
 }
 
 h2{
 	width:500px;
-	margin-top:100px;
+	margin :100px auto 5px auto;
 	margin-bottom: 5px;
-	margin-left: auto;
-	margin-right: auto;
 	text-align: center;
 	padding-bottom: 5px;
 	box-sizing:border-box;
 }
 
-h2.wideh2{
+.wideh2{
 	width:800px;
 }
 
@@ -248,10 +246,10 @@ ul {
 	padding: 5px;
 	list-style-position:inside;
 	text-align: left;
-	width: 50%;
+	width: 45%;
 }
 
-ul#zines{
+#zines{
 	margin: auto;
 	margin-top:14px;
 	display: flex;
@@ -264,7 +262,7 @@ ul#zines{
 	padding-right:auto;
 }
 
-ul#databases{
+#databases{
 	margin: auto;
 	margin-top:10px;
 	margin-bottom:100px;
@@ -292,16 +290,12 @@ li.bios{	display:flex;
 
 li.zines{
 	display: inline;
-	margin: 5px;
-	margin-bottom: 20px;
 	text-align: left;
 	border:none;
 }
 
 li.databases{
 	display: inline;
-	margin: 5px;
-	margin-bottom: 20px;
 	text-align: left;
 	border:none;
 }
@@ -309,7 +303,7 @@ li.databases{
 
 
 		/* DIVs & SPANs */
-div.caption{
+.caption{
 text-align: center;
 text-decoration: none;
 font-size:70%;
@@ -317,7 +311,7 @@ position:relative;
 top:-38px;
 }
 
-span.lightblue{
+.lightblue{
 	color:#AEDCDF;
 }
 
@@ -335,16 +329,27 @@ img.zines{
 	border-radius: 0px;
 }
 
-img.friends{
+.friends{
 	border:1px dotted #AEDCDF;
 }
 
-img#database{
+#database{
 	width: 152px;
-	border:1px dotted #AEDCDF;
 }
 
-img#heart {
+#duotrope{
+	width: 140px;
+}
+
+#tinypages{
+	width: 110px;
+}
+
+#newpages{
+	width: 200px;
+}
+
+#heart {
 	width: 100px;
 	margin:auto;
 	border:1px dotted #AEDCDF;;
@@ -352,7 +357,7 @@ img#heart {
 
 
 		/* SPACING */
-br.tall{
+.tall{
 	display: block;
 	content: "";
 	margin-top: 10px;
@@ -360,7 +365,7 @@ br.tall{
 
 
 		/* BIO PAGE */
-p#bio {
+#bio {
 	display: block;
 	text-align: left;
 	margin: auto;
@@ -370,7 +375,7 @@ p#bio {
 }
 
 		/* ABOUT THE AUTHOR PAGE */
-img#me{
+#me{
 	width: 200px;
 	margin: auto;
 	display: flex;

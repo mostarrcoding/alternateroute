@@ -1,0 +1,107 @@
+<?xml version="1.0" standalone="no" ?>
+<!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="Song - Wijnberg - AR free poem_data" version="1.3.0" audacityversion="2.3.3" sel0="0.0000000000" sel1="82.4700226757" vpos="0" h="0.0000000000" zoom="9.5428614479" rate="44100.0" snapto="off" selectionformat="hh:mm:ss + milliseconds" frequencyformat="Hz" bandwidthformat="octaves">
+	<tags>
+		<tag name="GENRE" value="Spoken Word Poetry, Contemporary Love Poem"/>
+		<tag name="TITLE" value="Song"/>
+		<tag name="ARTIST" value="Nachoem M. Wijnberg"/>
+	</tags>
+	<wavetrack name="Song - Wijnberg - AR free poem" isSelected="1" height="150" minimized="0" channel="0" linked="1" mute="0" solo="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="3636928">
+				<waveblock start="0">
+					<simpleblockfile filename="eff1fdf4.au" len="262144" min="-0.426719" max="0.38332" rms="0.054413"/>
+				</waveblock>
+				<waveblock start="262144">
+					<simpleblockfile filename="eff1feb0.au" len="262144" min="-0.649893" max="0.627984" rms="0.059095"/>
+				</waveblock>
+				<waveblock start="524288">
+					<simpleblockfile filename="eff1f24f.au" len="262144" min="-0.593686" max="0.675925" rms="0.076484"/>
+				</waveblock>
+				<waveblock start="786432">
+					<simpleblockfile filename="eff1f0ba.au" len="262144" min="-0.565582" max="0.517224" rms="0.059177"/>
+				</waveblock>
+				<waveblock start="1048576">
+					<simpleblockfile filename="eff1fd5e.au" len="262144" min="-0.405228" max="0.398198" rms="0.046371"/>
+				</waveblock>
+				<waveblock start="1310720">
+					<simpleblockfile filename="eff1f47d.au" len="262144" min="-0.749081" max="0.685844" rms="0.093132"/>
+				</waveblock>
+				<waveblock start="1572864">
+					<simpleblockfile filename="eff1f842.au" len="262144" min="-0.679649" max="0.72056" rms="0.085539"/>
+				</waveblock>
+				<waveblock start="1835008">
+					<simpleblockfile filename="eff1f31c.au" len="262144" min="-0.600298" max="0.783379" rms="0.073981"/>
+				</waveblock>
+				<waveblock start="2097152">
+					<simpleblockfile filename="eff1fb3b.au" len="262144" min="-0.583767" max="0.699069" rms="0.082473"/>
+				</waveblock>
+				<waveblock start="2359296">
+					<simpleblockfile filename="eff1f347.au" len="262144" min="-0.891251" max="0.851158" rms="0.085808"/>
+				</waveblock>
+				<waveblock start="2621440">
+					<simpleblockfile filename="eff1f6ef.au" len="262144" min="-0.492844" max="0.69411" rms="0.078582"/>
+				</waveblock>
+				<waveblock start="2883584">
+					<simpleblockfile filename="eff1fee7.au" len="262144" min="-0.578808" max="0.674272" rms="0.081727"/>
+				</waveblock>
+				<waveblock start="3145728">
+					<simpleblockfile filename="eff1f968.au" len="262144" min="-0.763959" max="0.723866" rms="0.071907"/>
+				</waveblock>
+				<waveblock start="3407872">
+					<simpleblockfile filename="eff1f3ca.au" len="229056" min="-0.729243" max="0.6627" rms="0.051914"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+	<wavetrack name="Song - Wijnberg - AR free poem" isSelected="1" height="150" minimized="0" channel="1" linked="0" mute="0" solo="0" rate="44100" gain="1.0" pan="0.0" colorindex="0">
+		<waveclip offset="0.00000000" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="3636928">
+				<waveblock start="0">
+					<simpleblockfile filename="eff1f5d2.au" len="262144" min="-0.426719" max="0.38332" rms="0.054413"/>
+				</waveblock>
+				<waveblock start="262144">
+					<simpleblockfile filename="eff1f6f3.au" len="262144" min="-0.649893" max="0.627984" rms="0.059095"/>
+				</waveblock>
+				<waveblock start="524288">
+					<simpleblockfile filename="eff1fb50.au" len="262144" min="-0.593686" max="0.675925" rms="0.076484"/>
+				</waveblock>
+				<waveblock start="786432">
+					<simpleblockfile filename="eff1f93c.au" len="262144" min="-0.565582" max="0.517224" rms="0.059177"/>
+				</waveblock>
+				<waveblock start="1048576">
+					<simpleblockfile filename="eff1f80f.au" len="262144" min="-0.405228" max="0.398198" rms="0.046371"/>
+				</waveblock>
+				<waveblock start="1310720">
+					<simpleblockfile filename="eff1f7b3.au" len="262144" min="-0.749081" max="0.685844" rms="0.093132"/>
+				</waveblock>
+				<waveblock start="1572864">
+					<simpleblockfile filename="eff1f0fe.au" len="262144" min="-0.679649" max="0.72056" rms="0.085539"/>
+				</waveblock>
+				<waveblock start="1835008">
+					<simpleblockfile filename="eff1f044.au" len="262144" min="-0.600298" max="0.783379" rms="0.073981"/>
+				</waveblock>
+				<waveblock start="2097152">
+					<simpleblockfile filename="eff1ff8e.au" len="262144" min="-0.583767" max="0.699069" rms="0.082473"/>
+				</waveblock>
+				<waveblock start="2359296">
+					<simpleblockfile filename="eff1f194.au" len="262144" min="-0.891251" max="0.851158" rms="0.085808"/>
+				</waveblock>
+				<waveblock start="2621440">
+					<simpleblockfile filename="eff1f9a4.au" len="262144" min="-0.492844" max="0.69411" rms="0.078582"/>
+				</waveblock>
+				<waveblock start="2883584">
+					<simpleblockfile filename="eff1f27d.au" len="262144" min="-0.578808" max="0.674272" rms="0.081727"/>
+				</waveblock>
+				<waveblock start="3145728">
+					<simpleblockfile filename="eff1fbc0.au" len="262144" min="-0.763959" max="0.723866" rms="0.071907"/>
+				</waveblock>
+				<waveblock start="3407872">
+					<simpleblockfile filename="eff1f917.au" len="229056" min="-0.729243" max="0.6627" rms="0.051914"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+	</wavetrack>
+</project>
