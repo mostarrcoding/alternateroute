@@ -130,6 +130,14 @@ p,h1,h2,ul,table{
 	padding:5px;
 	background-color:#20060F;
 	color:#B1AF8F;
+	font-family: 'PT Serif', serif;
+	font-size: smaller;
+	font-weight: lighter;
+}
+
+h1,h2{
+	font-weight:bolder;
+	font-size: larger;
 }
 
 		/* PARAGRAPHS */
@@ -224,6 +232,8 @@ h1{
 #title{
 		margin-top: 25px;
 		padding: 3px;
+		font-family: 'Open Sans', sans-serif;
+		font-weight: lighter;
 }
 
 h2{
