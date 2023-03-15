@@ -55,8 +55,6 @@ body {
 a:link {
 	color: #AD2E57;
 	background:none;
-	border: 1px dotted #B1AF8F;
-	border-radius:4px;
 	padding:4px;
 	text-decoration:none;
 }
@@ -72,7 +70,6 @@ li.zines a:link, li.zines a:active:visited, a:active:hover{
 
 li.bios a:link{
 	color: #AD2E57;
-	border: 1px dotted #B1AF8F;
 	border-radius: 4px;
 	padding: 1px;
 	text-decoration:none;
@@ -98,20 +95,11 @@ h2 a:link{
 
 a:visited {
 	color: #AD2E57;
-	border-color:#B1AF8F;
 }
 
 h2 a:visited{
 	color:#AD2E57;
 	background:none;
-}
-
-a:hover {
-	color: #AEDCDF;
-}
-
-h2 a:hover{
-	color:#AEDCDF;
 }
 
 a:active {
@@ -120,6 +108,25 @@ a:active {
 
 h2 a:active{
 	color:#805962;
+}
+
+a:hover {
+	color: #AEDCDF;
+}
+
+h2 a:hover{
+	color:#88878b;
+}
+
+a.friends:link{
+	color:#B1AF8F;
+}
+a.friends:hover{
+	color:#88878b;
+}
+
+p.friends{
+	text-align: center;
 }
 
 
@@ -201,6 +208,8 @@ p.bios a{
 	white-space:nowrap;
 	margin:10px;
 	padding: 5px;
+	border: 1px dotted #B1AF8F;
+	border-radius:4px;
 }
 
 p.bios a:visited{
@@ -293,7 +302,8 @@ li {
 	padding: 1px;
 }
 
-li.bios{	display:flex;
+li.bios{
+	display:flex;
 	flex-wrap:wrap;
 	line-height: 1.7em;
 }
@@ -338,7 +348,7 @@ img.zines{
 }
 
 .friends{
-	border:1px dotted #AEDCDF;
+	
 }
 
 #database{
