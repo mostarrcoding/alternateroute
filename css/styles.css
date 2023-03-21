@@ -190,6 +190,10 @@ p.center{
 	text-align: justify;
 }
 
+.welcome{
+	width: 45%;
+}
+
 p.zines {
 	width: 100%;
 	border:none;
@@ -247,8 +251,7 @@ h1{
 
 h2{
 	width:500px;
-	margin :100px auto 5px auto;
-	margin-bottom: 5px;
+	margin :40px auto 5px auto;
 	text-align: center;
 	padding-bottom: 5px;
 	box-sizing:border-box;
@@ -266,6 +269,22 @@ ul {
 	list-style-position:inside;
 	text-align: left;
 	width: 45%;
+}
+
+ul.lit{
+	width: 30%;
+}
+
+ul.center{
+	text-align: center;
+}
+
+ul.wide{
+	width: 60%;
+}
+
+.nobullets{
+	list-style-type: none;
 }
 
 #zines{
