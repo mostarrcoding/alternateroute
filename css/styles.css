@@ -169,9 +169,17 @@ td{
 	text-align: center;
 }
 
-td:hover{
+td:hover,h1:hover,h2:hover{
 	background-color:#B1AF8F;
 	color:#20060F;
+}
+
+h2:hover{
+	border:1px dotted #AEDCDF;
+}
+
+td:hover a:hover{
+	color:#AEDCDF;
 }
 
 table tr td a:link{
@@ -356,8 +364,6 @@ text-decoration: none;
 font-size:70%;
 padding: 5px;
 width: 20%;
-position: relative;
-left: 10%;
 }
 
 .lightblue{
