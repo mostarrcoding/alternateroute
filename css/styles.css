@@ -163,6 +163,10 @@ table, td{
 	border-radius: 4px;
 }
 
+table.narrow{
+	width: 400px;
+}
+
 td{
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -377,6 +381,10 @@ img {
 	display: block;
 	margin: auto;
 	border-radius:5px;
+}
+
+img.small{
+	width: 140px;
 }
 
 img.zines{
