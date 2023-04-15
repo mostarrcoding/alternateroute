@@ -129,6 +129,10 @@ p.friends{
 	text-align: center;
 }
 
+p.spacer{
+	height: 300px;
+}
+
 
 		/* BODY TEXT */
 p,h1,h2,ul,table{
