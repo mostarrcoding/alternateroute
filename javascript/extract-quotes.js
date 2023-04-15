@@ -1,7 +1,14 @@
-let quotes = document.getElementsByClassName("quoteText");
+/*let quotes = document.getElementsByClassName("quoteText");*/
 
-for (i in quotes){
-    console.log(quotes[i]);
+function getQuotes(){
+    quotes = gr.getElementsByClassName("quoteText");
+    for (i in quotes){
+        console.log(quotes[i].innerText);
+    }
+    console.log(quotes);
 }
 
-console.log(quotes);
+gr = $.get(url: "../quotes/goodreads.html", success: getQuotes());
+
+
+
