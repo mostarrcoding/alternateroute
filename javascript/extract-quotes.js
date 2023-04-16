@@ -8,7 +8,7 @@ function getQuotes(){
     console.log(quotes);
 }
 
-gr = $.get(url: "../quotes/goodreads.html", success: getQuotes());
+gr = $.get("../quotes/goodreads.html", getQuotes);
 
 
 
