@@ -1,3 +1,7 @@
+console.log("random-element.js is running");
+
+/* Demo */
+/*
 array = ["quote1", "quote2", "quote3", "quote4", "quote5", "quote6"];
 var par = document.getElementsByClassName("spacer")[0];
 
@@ -10,3 +14,5 @@ for(i=0; i<10; i++){
     }
 }
 par.innerHTML = finalRandomElement;
+*/
+

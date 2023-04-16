@@ -130,7 +130,7 @@ p.friends{
 }
 
 p.spacer{
-	height: 300px;
+	text-align:
 }
 
 
@@ -371,7 +371,17 @@ width: 20%;
 text-decoration: none;
 font-size:70%;
 padding: 5px;
-width: 20%;
+width: 20%;	
+}
+
+.absoluteBottom{
+	position: absolute;
+	right:0px;
+}
+
+.right{
+	position: relative;
+	right: 10px;
 }
 
 .lightblue{
