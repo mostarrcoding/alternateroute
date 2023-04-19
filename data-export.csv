@@ -1,0 +1,233 @@
+# ----------------------------------------
+# Report CSV Export
+# Account: [Alternate Route] Google Analytics
+# Property: [Alternate Route] Webpage
+# ----------------------------------------
+#  
+# Start date: 20230322
+# End date: 20230418
+Nth day,Users
+0000,0
+0001,0
+0002,0
+0003,0
+0004,0
+0005,0
+0006,0
+0007,0
+0008,0
+0009,0
+0010,0
+0011,0
+0012,0
+0013,0
+0014,0
+0015,0
+0016,2
+0017,4
+0018,5
+0019,4
+0020,8
+0021,8
+0022,7
+0023,3
+0024,9
+0025,6
+0026,9
+0027,9
+
+# Start date: 20230322
+# End date: 20230418
+Nth day,New users
+0000,0
+0001,0
+0002,0
+0003,0
+0004,0
+0005,0
+0006,0
+0007,0
+0008,0
+0009,0
+0010,0
+0011,0
+0012,0
+0013,0
+0014,0
+0015,0
+0016,2
+0017,4
+0018,5
+0019,4
+0020,7
+0021,7
+0022,6
+0023,2
+0024,8
+0025,5
+0026,8
+0027,8
+
+# Start date: 20230322
+# End date: 20230418
+Nth day,Average engagement time
+0000,0
+0001,0
+0002,0
+0003,0
+0004,0
+0005,0
+0006,0
+0007,0
+0008,0
+0009,0
+0010,0
+0011,0
+0012,0
+0013,0
+0014,0
+0015,0
+0016,12.5
+0017,18.5
+0018,17.8
+0019,13.25
+0020,60.125
+0021,19.75
+0022,63.57142857142857
+0023,41.333333333333336
+0024,56
+0025,29.833333333333332
+0026,24.88888888888889
+0027,39.44444444444444
+
+# Start date: 20230322
+# End date: 20230418
+Nth day,Total revenue
+
+
+# Where do your new users come from?
+# Start date: 20230322
+# End date: 20230418
+First user default channel group,New users
+Referral,30
+Direct,18
+Organic Search,10
+Organic Social,8
+
+#  
+# Start date: 20230322
+# End date: 20230418
+Session default channel group,Sessions
+Referral,33
+Direct,31
+Organic Search,11
+Organic Social,10
+
+#  
+# Start date: 20230322
+# End date: 20230418
+Country ID,Users
+AU,1
+BR,1
+CA,2
+FR,1
+GB,2
+IE,1
+JM,1
+PH,2
+US,55
+
+# Start date: 20230322
+# End date: 20230418
+Country,Users
+United States,55
+Canada,2
+Philippines,2
+United Kingdom,2
+Australia,1
+Brazil,1
+France,1
+Ireland,1
+Jamaica,1
+
+# How are active users trending?
+# Start date: 20230322
+# End date: 20230418
+Nth day,30 days,7 days,1 day
+0000,0,0,0
+0001,0,0,0
+0002,0,0,0
+0003,0,0,0
+0004,0,0,0
+0005,0,0,0
+0006,0,0,0
+0007,0,0,0
+0008,0,0,0
+0009,0,0,0
+0010,0,0,0
+0011,0,0,0
+0012,0,0,0
+0013,0,0,0
+0014,0,0,0
+0015,0,0,0
+0016,2,2,2
+0017,6,6,4
+0018,11,11,5
+0019,15,15,4
+0020,22,22,8
+0021,29,29,8
+0022,35,35,7
+0023,37,35,3
+0024,45,40,9
+0025,50,40,6
+0026,58,44,9
+0027,66,46,9
+
+# How well do you retain your users?
+# Start date: 20230305
+# End date: 20230415
+Date,Week 0,Week 1,Week 2,Week 3,Week 4,Week 5
+Mar 5 - Mar 11,0,0,0,0,0,0
+Mar 12 - Mar 18,0,0,0,0,0,-1
+Mar 19 - Mar 25,0,0,0,0,-1,-1
+Mar 26 - Apr 1,0,0,0,-1,-1,-1
+Apr 2 - Apr 8,6,1,-1,-1,-1,-1
+Apr 9 - Apr 15,39,-1,-1,-1,-1,-1
+
+#  
+# Start date: 20230322
+# End date: 20230418
+Page title and screen class,Views
+"[Alternate Route]: An indie zine of poetry, art, and off-the-beaten-path creativity for the modern beatnik",104
+[Alternate Route] - About the Editor,8
+[Alternate Route] Homepage,3
+[Alternate Route] Nominations,1
+
+#  
+# Start date: 20230322
+# End date: 20230418
+Event name,Event count
+page_view,116
+session_start,85
+user_engagement,68
+first_visit,66
+scroll,48
+file_download,45
+click,3
+
+# What are your top conversions?
+# Start date: 20230322
+# End date: 20230418
+Event name,Conversions
+
+
+#  
+# Start date: 20230322
+# End date: 20230418
+Item name,Items purchased
+
+
+# How does activity on your platforms compare?
+# Start date: 20230322
+# End date: 20230418
+Platform,Conversions
