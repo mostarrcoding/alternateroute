@@ -129,8 +129,16 @@ p.friends{
 	text-align: center;
 }
 
-p.spacer{
-	text-align: justify;
+p.holder{
+	width:40%;
+}
+
+span.spacer{
+	display:inline-block;
+	text-align: right;
+	text-align-last:right;
+	width:74%;
+	margin-left:8%;
 }
 
 
