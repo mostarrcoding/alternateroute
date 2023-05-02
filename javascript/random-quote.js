@@ -10,6 +10,10 @@ function returnrandomelement(array){
     return randomElement;
 }
 
+function debug_selectdisplay_quote(array, index){
+  return array[index];
+}
+
 
 let authorquotations = [
     "I love deadlines. I love the whooshing noise they make as they go by.<br />― Douglas Adams, The Salmon of Doubt",
@@ -65,9 +69,11 @@ let authorquotations = [
   "She's got a competition clutch with the four on the floor<br />And she purrs like a kitten 'til the lake pipes roar<br />And if that ain't enough to make you flip your lid<br />There's one more thing, I got the pink slip, daddy<br />— Little Deuce Coupe by The Beach Boys",
   "Keeps me crying, baby, for you<br />Keep on, keep on crying, baby, for you<br />So won't you hurry<br />Come on boy, see about me (come see about me)<br />See about your baby (come see about me)<br />You know I'm so lonely (come see about me)<br />I love you only (come see about me)<br />See about your baby (come see about me)<br />Hurry, hurry (come see about me)<br />— Come See About Me by The Supremes",
   "All these places had their moments<br />With lovers and friends, I still can recall<br />Some are dead and some are living<br />In my life, I've loved them all<br />— In My Life by The Beatles",
-  "Every limbo boy and girl<br />All around the limbo world<br />Gonna do the limbo rock<br />All around the limbo clock<br />Jack be limbo, Jack be quick<br />Jack go under limbo stick<br />All around the limbo clock<br />Hey, let's do the limbo rock (woah-oh)<br /> — Limbo Rock by Chubby Checker"
+  "Every limbo boy and girl<br />All around the limbo world<br />Gonna do the limbo rock<br />All around the limbo clock<br />Jack be limbo, Jack be quick<br />Jack go under limbo stick<br />All around the limbo clock<br />Hey, let's do the limbo rock (woah-oh)<br /> — Limbo Rock by Chubby Checker",
+  "Creepy Persian Bearded-man Snatcher: Do you use OILS!?!?!!!<br />Manny: <em>(startled and worried)</em> No!<br />Creepy Persian Bearded-man Snatcher: You should.<br />— Black Books"
   ];
 
+/*let selectedQuote = debug_selectdisplay_quote(authorquotations, authorquotations.length - 1 );*/
 let selectedQuote = returnrandomelement(authorquotations);
 var par = document.getElementsByClassName("spacer")[0];
 par.innerHTML = selectedQuote;
