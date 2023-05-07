@@ -1,20 +1,23 @@
+/* Let the developer/curious know the script is running */
 console.log("random-quote.js is running");
+
+/* Testing */
 /*
 let list = [1, 2, 3];
-
 let selectedQuote = returnrandomelement(list);
 console.log(selectedQuote);
 */
+
+/* Declare Functions */
 function returnrandomelement(array){
     let randomElement = array[Math.floor(Math.random() * array.length)];
     return randomElement;
 }
-
 function debug_selectdisplay_quote(array, index){
   return array[index];
 }
 
-
+/* The Quotes (an array) */
 let authorquotations = [
     "I love deadlines. I love the whooshing noise they make as they go by.<br />― Douglas Adams, The Salmon of Doubt",
     "There is no greater agony than bearing an untold story inside you.<br />― Maya Angelou, I Know Why the Caged Bird Sings",
@@ -73,7 +76,10 @@ let authorquotations = [
   "Creepy Persian Bearded-man Snatcher: Do you use OILS!?!?!!!<br />Manny: <em>(startled and worried)</em> No!<br />Creepy Persian Bearded-man Snatcher: You should.<br />— Black Books"
   ];
 
+/* Debug */
 /*let selectedQuote = debug_selectdisplay_quote(authorquotations, authorquotations.length - 1 );*/
+
+/* Run the functions */
 let selectedQuote = returnrandomelement(authorquotations);
 var par = document.getElementsByClassName("spacer")[0];
 par.innerHTML = selectedQuote;
