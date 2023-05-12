@@ -73,7 +73,8 @@ let authorquotations = [
   "Keeps me crying, baby, for you<br />Keep on, keep on crying, baby, for you<br />So won't you hurry<br />Come on boy, see about me (come see about me)<br />See about your baby (come see about me)<br />You know I'm so lonely (come see about me)<br />I love you only (come see about me)<br />See about your baby (come see about me)<br />Hurry, hurry (come see about me)<br />— Come See About Me by The Supremes",
   "All these places had their moments<br />With lovers and friends, I still can recall<br />Some are dead and some are living<br />In my life, I've loved them all<br />— In My Life by The Beatles",
   "Every limbo boy and girl<br />All around the limbo world<br />Gonna do the limbo rock<br />All around the limbo clock<br />Jack be limbo, Jack be quick<br />Jack go under limbo stick<br />All around the limbo clock<br />Hey, let's do the limbo rock (woah-oh)<br /> — Limbo Rock by Chubby Checker",
-  "Creepy Persian Bearded-man Snatcher: Do you use OILS!?!?!!!<br />Manny: <em>(startled and worried)</em> No!<br />Creepy Persian Bearded-man Snatcher: You should.<br />— Black Books"
+  "Creepy Persian Bearded-man Snatcher: Do you use OILS!?!?!!!<br />Manny: <em>(startled and worried)</em> No!<br />Creepy Persian Bearded-man Snatcher: You should.<br />— Black Books",
+  "Bandages have advantages, too<br />—Bandages by Hot Hot Heat",
   ];
 
 /* Debug */
