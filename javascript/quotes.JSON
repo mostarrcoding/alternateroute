@@ -1,4 +1,5 @@
-let authorquotations = [
+{
+  "authorquotations": [
     "I love deadlines. I love the whooshing noise they make as they go by.<br />― Douglas Adams, The Salmon of Doubt",
     "There is no greater agony than bearing an untold story inside you.<br />― Maya Angelou, I Know Why the Caged Bird Sings",
     "What really knocks me out is a book that, when you're all done reading it, you wish the author that wrote it was a terrific friend of yours and you could call him up on the phone whenever you felt like it. That doesn't happen much, though.<br />― J.D. Salinger, The Catcher in the Rye",
@@ -55,4 +56,6 @@ let authorquotations = [
   "Every limbo boy and girl<br />All around the limbo world<br />Gonna do the limbo rock<br />All around the limbo clock<br />Jack be limbo, Jack be quick<br />Jack go under limbo stick<br />All around the limbo clock<br />Hey, let's do the limbo rock (woah-oh)<br /> — Limbo Rock by Chubby Checker",
   "Creepy Persian Bearded-man Snatcher: Do you use OILS!?!?!!!<br />Manny: <em>(startled and worried)</em> No!<br />Creepy Persian Bearded-man Snatcher: You should.<br />— Black Books",
   "Bandages have advantages, too<br />—Bandages by Hot Hot Heat",
-  ];
+  "I awake to find no peace of mind<br />I said, &ldquo;How do you live as a fugitive down here&rdquo;<br />&ldquo;Where I cannot see so clear?&rdquo;<br />I said, &ldquo;What do I know?&rdquo;<br />&ldquo;Show me the right way to go&rdquo;<br /><br />And the spies came out of the water<br />But you're feeling so bad 'cause you know<br />That the spies hide out in every corner<br />But you can't touch them, no<br />'Cause they're all spies<br /><br />They're all spies<br /><br />I awake to see that no one is free<br />We're all fugitives, look at the way we live down here<br />I cannot sleep from fear, no<br />I said, &ldquo;Which way do I turn?&rdquo;<br />Oh, I forget everything I learn<br /><br />And the spies came out of the water<br />And you're feeling so bad 'cause you know<br />That the spies hide out in every corner<br />But you can't touch them, no<br />'Cause they're all spies<br /><br />They're all spies<br /><br />And if we don't hide here<br />They're gonna find us<br />And if we don't hide now<br />They're gonna catch us where we sleep<br />Ah, and if we don't hide here<br />They're gonna find us<br /><br />And the spies came out of the water<br />But you're feeling so good 'cause you know<br />That those spies hide out in every corner<br />They can't touch you, no<br />'Cause they're just spies<br /><br />They're just spies<br />They're just spies<br />They're just spies<br />They're just spies<br /><br /> — Spies by Coldplay",
+  ]
+}
