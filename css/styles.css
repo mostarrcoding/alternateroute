@@ -544,7 +544,7 @@ img.zines{
 
 /* Chrome version 29 and above */
 @media screen and (-webkit-min-device-pixel-ratio:0)
-and (min-resolution:.001dpcm)
+and (min-resolution:.002dpcm)
 	{
 		p,h1,h2,ul,table,tr,td{
 			border: 1px dashed #805962;
