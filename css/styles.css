@@ -414,6 +414,7 @@ li.zines{
 	display: inline;
 	text-align: left;
 	border:none;
+	width: 150px;
 }
 
 li.databases{

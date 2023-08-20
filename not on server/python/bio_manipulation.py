@@ -2,8 +2,10 @@
 Standard file naming convention for bio files is "[first name] [last name] . txt".
 '''
 
-import os
-import shutil
+from os.path import exists
+from os.path import join
+from shutil import copy
+
 
 '''
 bio.txt for each author located in author submission folder "submission_dir"
@@ -11,19 +13,27 @@ get author name
 for each biography
 rename bio.txt to author name . txt and
 move to addr
+if no bio.txt for author/artist, function should
+create empty new file (still according to naming convention)
+so that their name appears on the Authors/Artists
+page of the website (alternateroute.org)
 '''
-def move_rename_bios(submissions_dir): #submissions_dir e.g. "C:\Users\starr\[Alternate Route]\Issue 10 - Summer 2023\Submissions\Placed"
-    new_addr = input("Where would you like to move all biographies?") #e.g. "C:\\Users\\starr\\[Alternate Route]\\Issue 10 - Summer 2023\\bios\"
-    for filename in os.listdir(submissions_dir):
-        f = os.path.join(submissions_dir, filename)
-        print(f)
+def move_rename_bios(submissions_dir): #submissions_dir e.g. "C:\\Users\starr\\[Alternate Route]\\Issue 10 - Summer 2023\\Submissions\\Placed"
+    new_dir = input("Where would you like to move all biographies?") #e.g. "C:\Users\starr\[Alternate Route]\Issue 10 - Summer 2023\bios\"
+    for dirname in os.listdir(submissions_dir):
+        f = os.path.join(submissions_dir, dirname)
         author_name = f.split('\\')[-1].replace(' ', '_')
-        print(author_name)
-        new_biography_filename = author_name + '.txt.'
-        try:
-            shutil.copy(f + '\\bio.txt', new_addr + '\\' + new_biography_filename)
-        except:
-            continue
+        bio_new_filename = author_name + '.txt.'
+        bio_new_filepath = new_dir + bio_new_filename
+        old_bio = dirname + "\\bio.txt"
+        if exists(old_bio):
+            copy(old_bio, bio_new_filepath)
+        else:
+            bio_new_file_handle = open(bio_new_filepath, 'w')
+            bio_new_file_handle.write("")
+            bio_new_file_handle.close()
+        
+        
 
 def get_addr():
     '''Returns the absolute path as input by the user upon query for directory containing author biography files.'''
