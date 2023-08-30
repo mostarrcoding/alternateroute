@@ -1,6 +1,5 @@
 
 /***
-
 		PAGE COLORS:
 		#AEDCDF "light-blue white"
 		#B1AF8F "light olive"
@@ -9,8 +8,10 @@
 		#20060F "dark maroon"
 		#805962 "dull maroon"
 		#433139 "brown"
-
 											***/
+											
+@media screen and (-webkit-min-device-pixel-ratio:0)
+{
 
 
 
@@ -41,6 +42,11 @@ body {
 ::selection{
 	color:#AD2E57;
 	background-color: #44191b;
+}
+
+@font-face {
+    font-family: "PT Serif", "Serif";
+    src: url("./fonts/PTSerif-Regular.ttf");
 }
 
 
@@ -154,16 +160,11 @@ p,h1,h2,ul,table{
 	font-weight: lighter;
 }
 
-ul ul{
+ul{
 	text-align:left;
 	border: none;
 	width: 400px;
 	margin-left: 0px;
-}
-
-h1,h2{
-	font-weight:bolder;
-	font-size: larger;
 }
 
 h3{
@@ -264,7 +265,7 @@ p.center{
 
 .welcome{
 	width: 45%;
-	margin-bottom:100px;
+	margin-bottom:50px;
 }
 
 p.zines {
@@ -540,13 +541,6 @@ img.zines{
 
 
 
-
-
-
-/* Chrome version 29 and above */
-@media screen and (-webkit-min-device-pixel-ratio:0)
-and (min-resolution:.002dpcm)
-	{
 		p,h1,h2,ul,table,tr,td{
 			border: 1px dashed #805962;
 			border-radius:4px;
@@ -559,7 +553,7 @@ and (min-resolution:.002dpcm)
 		}
 		
 		h2{
-			margin-bottom: 25px;	
+			margin-bottom: 60px;
 		}
 
 		table{
