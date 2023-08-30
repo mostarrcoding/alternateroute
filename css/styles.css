@@ -214,6 +214,16 @@ h2.nobackground:hover{
 	padding-bottom:3px;
 }
 
+h2.content-header, h3.content-header{
+	padding: none;
+	padding-bottom:5px;
+	margin: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-top:100px;
+}
+
 table, td{
 	border: 1px dotted #AEDCDF;
 	border-radius: 4px;
