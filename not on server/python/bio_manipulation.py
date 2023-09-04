@@ -2,8 +2,7 @@
 Standard file naming convention for bio files is "[first name] [last name] . txt".
 '''
 
-from os.path import exists
-from os.path import join
+import os
 from shutil import copy
 
 
@@ -21,19 +20,21 @@ page of the website (alternateroute.org)
 def move_rename_bios(submissions_dir): #submissions_dir e.g. "C:\\Users\starr\\[Alternate Route]\\Issue 10 - Summer 2023\\Submissions\\Placed"
     new_dir = input("Where would you like to move all biographies?") #e.g. "C:\Users\starr\[Alternate Route]\Issue 10 - Summer 2023\bios\"
     for dirname in os.listdir(submissions_dir):
-        f = os.path.join(submissions_dir, dirname)
-        author_name = f.split('\\')[-1].replace(' ', '_')
+        author_dir = os.path.join(submissions_dir, dirname)
+        print("author_dir: " + author_dir)
+        author_name = author_dir.split('\\')[-1].replace(' ', '_')
         bio_new_filename = author_name + '.txt.'
-        bio_new_filepath = new_dir + bio_new_filename
-        old_bio = dirname + "\\bio.txt"
-        if exists(old_bio):
+        bio_new_filepath = new_dir + '\\' + bio_new_filename
+        old_bio = author_dir + "\\bio.txt"
+        print("old_bio: " + old_bio)
+        if os.path.exists(old_bio):
+            print("Moving existing bio from " + old_bio + " to " + bio_new_filepath + " for author " + author_name) 
             copy(old_bio, bio_new_filepath)
         else:
+            print("Making new empty bio for " + author_name + " at " + bio_new_filepath)
             bio_new_file_handle = open(bio_new_filepath, 'w')
             bio_new_file_handle.write("")
             bio_new_file_handle.close()
-        
-        
 
 def get_addr():
     '''Returns the absolute path as input by the user upon query for directory containing author biography files.'''
@@ -64,7 +65,7 @@ def make_bio_HTML_files(addr, authors):
     for author in authors:
         name = author
         html_name = name.replace("_", " ")
-        bio_file = open(addr + name + ".txt", "r")
+        bio_file = open(addr + "\\" + name + ".txt", "r")
         bio = bio_file.read()
         bio = bio.replace("\n", "<br />")
         authorBioHTML = bioTemplate_string.replace("{{creator_name}}", name.replace('_', ' ')).replace("{{creator bio}}", bio).replace("â€™", "'")
