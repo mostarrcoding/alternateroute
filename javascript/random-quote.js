@@ -14,11 +14,11 @@ function return_random_element(authorquotations){
     return randomElement;
 }
 
-/*
-*function debug_selectdisplay_quote(array, index){
-*  return array[index];
-*}
-*/
+
+function debug_selectdisplay_quote(array, index){
+  return array[index];
+}
+
 
 /*
 *var par = document.getElementsByClassName("spacer")[0];
@@ -85,12 +85,17 @@ const authorquotations = [
   "Bandages have advantages, too<br />     —Bandages by Hot Hot Heat",
   "I awake to find no peace of mind<br />I said, &ldquo;How do you live as a fugitive down here&rdquo;<br />&ldquo;Where I cannot see so clear?&rdquo;<br />I said, &ldquo;What do I know?&rdquo;<br />&ldquo;Show me the right way to go&rdquo;<br /><br />And the spies came out of the water<br />But you're feeling so bad 'cause you know<br />That the spies hide out in every corner<br />But you can't touch them, no<br />'Cause they're all spies<br /><br />They're all spies<br /><br />I awake to see that no one is free<br />We're all fugitives, look at the way we live down here<br />I cannot sleep from fear, no<br />I said, &ldquo;Which way do I turn?&rdquo;<br />Oh, I forget everything I learn<br /><br />And the spies came out of the water<br />And you're feeling so bad 'cause you know<br />That the spies hide out in every corner<br />But you can't touch them, no<br />'Cause they're all spies<br /><br />They're all spies<br /><br />And if we don't hide here<br />They're gonna find us<br />And if we don't hide now<br />They're gonna catch us where we sleep<br />Ah, and if we don't hide here<br />They're gonna find us<br /><br />And the spies came out of the water<br />But you're feeling so good 'cause you know<br />That those spies hide out in every corner<br />They can't touch you, no<br />'Cause they're just spies<br /><br />They're just spies<br />They're just spies<br />They're just spies<br />They're just spies<br /><br />         — Spies by Coldplay",
   "You don't really need to find out<br />What's going on<br />You don't really want to know<br />Just how far it's gone<br />Just leave well enough alone<br />Eat your dirty laundry<br />     —Dirty Laundry  by Don Henley",
+  "You must see with eyes unclouded by hate. See the good in that which is evil, and the evil in that which is good. Pledge yourself to neither side, but vow instead to preserve the balance that exists between the two.<br />    ― Hayao Miyazaki",
 ]
 
 
-/* Debug */
-/*let selectedQuote = debug_selectdisplay_quote(authorquotations, authorquotations.length - 1 );*/ 	
+/* Debug Mode */
+/*
+let selectedQuote = debug_selectdisplay_quote(authorquotations, authorquotations.length - 1 );
+let text = document.getElementById("quotes").innerHTML; 
+document.getElementById("quotes").innerHTML = text.replace("", selectedQuote);
+*/
 
-/* Run the functions */
+/* Normal Operation */
 let text = document.getElementById("quotes").innerHTML; 
 document.getElementById("quotes").innerHTML = text.replace("", return_random_element(authorquotations));
