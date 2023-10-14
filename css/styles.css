@@ -333,7 +333,7 @@ p.bios a:visited{
 p.bios a:active{
 	color:#AD2E57;
 	background-color: #B1AF8F;
-	border-color:#B1AF8F;
+	border: 1px dotted #B1AF8F;
 }
 
 p.databases {
