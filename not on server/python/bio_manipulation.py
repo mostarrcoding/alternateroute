@@ -98,7 +98,9 @@ def make_list_for_copyright_page(path):
     print(sorted_bio_HTML_files)
 
 
-def add_heart_to_bio():
+def fix_heart_to_bios():
+    #file_duplicate_hearts = '<a class="heart" href="../index.html"><img id="heart" src="../images/fullsizeoutput_1.jpeg" alt="Paper love from [AR]" width=100px></a>\n\t\t<a class="heart" href="../index.html"><img id="heart" src="../images/fullsizeoutput_1.jpeg" alt="Paper love from [AR]" width=100px></a>'
+    #print(file_duplicate_hearts)
     heart_html = '\n\t\t<a class="heart" href="../index.html"><img id="heart" src="../images/fullsizeoutput_1.jpeg" alt="Paper love from [AR]" width=100px></a>'
     file_end = '\n\t</body>\n</html>'
     files = os.listdir("../../bios")
@@ -109,8 +111,12 @@ def add_heart_to_bio():
         filedata = ''
         with open(full_filepath, 'r', encoding='utf-8') as file_r:
             filedata = file_r.read()
-            filedata = filedata.replace(file_end, heart_html + file_end)
+            if heart_html in filedata:
+                print(file + ' contains heart home link')
+            filedata = filedata.replace(heart_html, "")
+        with open(full_filepath, 'w', encoding='utf-8') as file_w:
+            file_w.write(filedata)
+        filedata = filedata.replace(file_end, heart_html+file_end)
         with open(full_filepath, 'w', encoding='utf-8') as file_w:
             file_w.write(filedata)
             
-        
