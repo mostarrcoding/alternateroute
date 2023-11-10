@@ -187,9 +187,9 @@ p, table{
 }
 
 p.full{
-	width: 100%;
+	width:90%;
 	border: none;
-	margin:0px;
+	margin:auto;
 }
 
 div.content_area{

@@ -96,3 +96,21 @@ def make_list_for_copyright_page(path):
     sorted_bio_HTML_files = str(sorted_bio_HTML_files)
     sorted_bio_HTML_files = sorted_bio_HTML_files.replace("'","").replace("[","").replace("]","").replace("_"," ").replace(".txt","")
     print(sorted_bio_HTML_files)
+
+
+def add_heart_to_bio():
+    heart_html = '\n\t\t<a class="heart" href="../index.html"><img id="heart" src="../images/fullsizeoutput_1.jpeg" alt="Paper love from [AR]" width=100px></a>'
+    file_end = '\n\t</body>\n</html>'
+    files = os.listdir("../../bios")
+    print(files)
+    for file in files:
+        full_filepath = "../../bios/" + file
+        print(full_filepath)
+        filedata = ''
+        with open(full_filepath, 'r', encoding='utf-8') as file_r:
+            filedata = file_r.read()
+            filedata = filedata.replace(file_end, heart_html + file_end)
+        with open(full_filepath, 'w', encoding='utf-8') as file_w:
+            file_w.write(filedata)
+            
+        
