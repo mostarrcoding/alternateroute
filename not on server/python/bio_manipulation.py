@@ -102,7 +102,7 @@ def fix_heart_to_bios():
     #file_duplicate_hearts = '<a class="heart" href="../index.html"><img id="heart" src="../images/fullsizeoutput_1.jpeg" alt="Paper love from [AR]" width=100px></a>\n\t\t<a class="heart" href="../index.html"><img id="heart" src="../images/fullsizeoutput_1.jpeg" alt="Paper love from [AR]" width=100px></a>'
     #print(file_duplicate_hearts)
     heart_html = '\n\t\t<a class="heart" href="../index.html"><img id="heart" src="../images/fullsizeoutput_1.jpeg" alt="Paper love from [AR]" width=100px></a>'
-    file_end = '\n\t</body>\n</html>'
+    file_end = '</body>\n</html>'
     files = os.listdir("../../bios")
     print(files)
     for file in files:
