@@ -42,11 +42,6 @@ body {
 	background-color: #44191b;
 }
 
-@font-face {
-    font-family: "PT Serif", "Serif";
-    src: url("./fonts/PTSerif-Regular.ttf");
-}
-
 
 
 		/* CLASSES */
@@ -59,7 +54,7 @@ body {
 a:link {
 	color: #AD2E57;
 	background:none;
-	padding:4px;
+	padding:0px;
 	text-decoration:none;
 }
 
@@ -84,10 +79,6 @@ fix this, make them the same size */
 
 li.databases a:link{
 	background:none;
-	border:none;
-}
-
-a.heart{
 	border:none;
 }
 
@@ -153,14 +144,28 @@ p,h1,h2,ul,table{
 	padding:5px;
 	background-color:#20060F;
 	color:#B1AF8F;
-	font-family: 'PT Serif', serif;
-	font-size: smaller;
+	font-size: 76%;
 	font-weight: lighter;
+}
+
+h1, h2{
+	font-size: larger;
+	
+}
+
+p, ul, table{
+	font-family: 'Gentium Book Plus', serif;
+	font-weight: lighter;
+}
+
+
+p{
+	overflow: auto;
+	display:block;
 }
 
 ul{
 	text-align:left;
-	border: none;
 	width: 400px;
 	margin-left: 0px;
 }
@@ -181,16 +186,35 @@ p, table{
 	margin-top: 14px;
 }
 
+p.full{
+	width: 100%;
+	border: none;
+	margin:0px;
+}
+
 div.content_area{
 	border: 1px dotted #B1AF8F;
 	border-radius:4px;
 	padding:0px;
 	background-color:#20060F;
 	color:#B1AF8F;
-	font-family: 'PT Serif', serif;
 	text-align:center;
 	width:494px;
 	margin:auto;
+	margin-top: 50px;
+	padding-top: 0px;
+}
+
+div.review{
+	border: 1px dotted #B1AF8F;
+	border-radius:4px;
+	padding:0px;
+	background-color:#20060F;
+	color:#B1AF8F;
+	text-align:center;
+	width:55%;
+	margin:auto;
+	margin-top: 50px;
 	padding-top: 0px;
 }
 
@@ -232,7 +256,11 @@ table.narrow{
 }
 
 table.menu{
-	font-family: 'PT Serif', serif;
+	
+}
+
+table.books{
+	
 }
 
 td{
@@ -244,15 +272,15 @@ td{
 td:hover,h1:hover,h2:hover{
 	background-color:#B1AF8F;
 	color:#20060F;
-	border: 2px dotted black;
+	border: 1px dotted black;
 }
 
 h2:hover{
-	border: 2px dotted black;
+	border: 1px dotted black;
 }
 
 td:hover a:hover{
-	color:#B1AF8F;
+	color:#20060F;
 }
 
 table tr td a:link{
@@ -290,9 +318,9 @@ p.bios{
 }
 
 p.bios a{
-	line-height: 1.9em;
+	line-height: 2.35em;
 	white-space:nowrap;
-	margin:10px;
+	margin:5px;
 	padding: 5px;
 	border: 1px dotted #B1AF8F;
 	border-radius:4px;
@@ -305,7 +333,7 @@ p.bios a:visited{
 p.bios a:active{
 	color:#AD2E57;
 	background-color: #B1AF8F;
-	border-color:#B1AF8F;
+	border: 1px dotted #B1AF8F;
 }
 
 p.databases {
@@ -317,17 +345,18 @@ p.databases {
 
 		/* HEADINGS */
 h1{
-	font-size:250%;
+	font-size:200%;
 	width: 600px;
 	margin: auto;
 	margin-bottom: 25px;
+	margin-top: 25px;
 	text-align: center;
+	font-family: 'Goudy Bookletter 1911', serif;
 }
 
 #title{
 		margin-top: 40px;
 		padding: 3px;
-		font-family: 'Open Sans', sans-serif;
 		font-weight: lighter;
 }
 
@@ -337,6 +366,7 @@ h2{
 	text-align: center;
 	padding-bottom: 5px;
 	box-sizing:border-box;
+	font-family: 'Goudy Bookletter 1911', serif;
 }
 
 .wideh2{
@@ -473,6 +503,13 @@ img {
 	border-radius:5px;
 }
 
+img.editor-profile-photo{
+	display: inline-block;
+	border: 1px dotted black;
+	margin: 20px;
+	float:left;
+}
+
 img.small{
 	width: 140px;
 }
@@ -509,7 +546,10 @@ img.zines{
 #heart {
 	width: 100px;
 	margin:auto;
-	border:1px dotted #B1AF8F;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	border:2px dotted #B1AF8F;
+	display: block;
 }
 
 
@@ -543,160 +583,4 @@ img.zines{
 #quotes{
 	text-align: right;
 	width: 600px;
-}
-
-
-
-
-
-		p,h1,h2,ul,table,tr,td{
-			border: 1px dashed #44191b;
-			border-radius:4px;
-			padding:5px;
-			background-color:#20060F;
-			color:#B1AF8F;
-			font-family: 'PT Serif', serif;
-			font-size: smaller;
-			font-weight: lighter;
-		}
-		
-		h2{
-			margin-bottom: 60px;
-		}
-
-		table{
-			font-size:larger;
-		}
-
-		a{
-			
-		}
-
-		div.content_area{
-			border: 1px dashed #44191b;
-			border-radius:4px;
-			padding:5px;
-			background-color:#20060F;
-			color:#B1AF8F;
-			font-family: 'PT Serif', serif;
-		}
-		
-		table.menu{
-			width: 1000px;
-			font-size:xxx-large;
-			margin-bottom: 100px;
-			font-family: 'PT Serif', serif;
-		}
-		
-		table.books{
-			margin-bottom:100px;
-		}
-		
-		table.narrow{
-			margin-bottom:100px;
-		}
-		
-		h2 a{
-			white-space: nowrap;
-			font-size: larger;
-		}
-
-		h3{
-			font-size:medium;
-		}
-
-		h1#title{
-			font-size:xxx-large;
-		}
-
-		p{
-			padding:17px;
-			margin-bottom:50px;
-		}
-
-		h2{
-			font-size: larger;
-			font-weight:bolder;
-		}
-
-		h1{
-			font-size: larger;
-			font-weight:bolder;
-		}
-
-		h2:hover, td:hover, h1:hover{
-			border: 1px dashed #AD2E57;
-		}
-
-		#zines{
-			margin: auto;
-			margin-top:14px;
-			display: flex;
-			justify-content:flex-start;
-			align-items:center;
-			border: 1px dashed #44191b;
-			border-radius:4px;
-			flex-wrap:wrap;
-			padding-left:50px;
-			padding-right:auto;
-		}
-		
-		#databases{
-			margin: auto;
-			margin-top:10px;
-			margin-bottom:20px;
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			border: 1px dashed #44191b;
-			border-radius:4px;
-			flex-wrap:wrap;
-		}
-
-		p.bios{
-			text-align:center-left;
-		}
-
-		p.bios a{
-			line-height: 2.4em;
-			white-space:nowrap;
-			margin:5px;
-			padding: 5px;
-			border: 1px dashed #44191b;
-			border-radius:4px;
-		}
-		
-		p.bios a:visited{
-			border: 1px solid black;
-		}
-		
-		p.bios a:active{
-			color:#AD2E57;
-			background-color: #B1AF8F;
-			border: 1px dashed black;
-		}
-
-		p.bios a:hover{
-			background-color:#B1AF8F;
-			color:#AD2E57;
-			border: 1px dashed #AD2E57;
-		}
-
-		a.bio{
-			margin:10px;
-			padding:10px;	
-		}
-
-		ul{
-			list-style-position: outside;
-			padding:11px;
-			padding-left: 40px;
-		}
-
-		ul.sub_guidelines{
-			list-style-position: outside;
-			padding:23px;
-			padding-left: 40px;
-		}
-	}
 }

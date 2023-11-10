@@ -37,7 +37,7 @@ def move_rename_bios(submissions_dir): #submissions_dir e.g. "C:\\Users\starr\\[
             bio_new_file_handle.close()
 
 def get_addr():
-    '''Returns the absolute path as input by the user upon query for directory containing author biography files.'''
+    '''Returns the absolute path as input by the user--upon query--for directory containing author biography files.'''
     #addr is the location of a folder/directory of bio.txt files no subdirectories allowed; not interested in content atm
     addr = input("Which directory contains author biography files?")
     return addr
@@ -65,7 +65,7 @@ def make_bio_HTML_files(addr, authors):
     for author in authors:
         name = author
         html_name = name.replace("_", " ")
-        bio_file = open(addr + "\\" + name + ".txt", "r")
+        bio_file = open(addr + "\\" + name + ".txt", "r", encoding="utf-8")
         bio = bio_file.read()
         bio = bio.replace("\n", "<br />")
         authorBioHTML = bioTemplate_string.replace("{{creator_name}}", name.replace('_', ' ')).replace("{{creator bio}}", bio).replace("â€™", "'")
