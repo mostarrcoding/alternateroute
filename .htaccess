@@ -1,4 +1,4 @@
 RewriteEngine on
 RewriteCond %{REQUEST_URI} !/maintenance.html$ [NC]
-RewriteCond %{REMOTE_ADDR} !^123\.456\.789\.000
+<!-- #""""RewriteCond %{REMOTE_ADDR} !^123\.456\.789\.000""" -->
 RewriteRule ^(.*)$ /maintenance.html [R=302,L]

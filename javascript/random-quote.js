@@ -67,7 +67,7 @@ const authorquotations = [
 	"I wish our clever young poets would remember my homely definitions of prose and poetry; that is prose; words in their best order; – poetry; the best words in the best order.<br />         —Samuel Taylor Coleridge ",
 	"Use no superfluous word, no adjective, which does not reveal something. Don’t use such an expression as ‘dim land of peace’. It dulls the image. It mixes an abstraction with the concrete. It comes from the writer’s not realising that the natural object is always the adequate symbol. Go in fear of abstractions.<br />         — Ezra Pound ",
 	"Poetry is what in a poem makes you laugh, cry, prickle, be silent, makes your toe nails twinkle, makes you want to do this or that or nothing, makes you know that you are alone in the unknown world, that your bliss and suffering is forever shared and forever all your own. <br />         —Dylan Thomas ",
-	"If I read a book [and] it makes my whole body so cold no fire can ever warm me, I know that is poetry. If I feel physically as if the top of my head were taken off, I know that is poetry. These are the only way I know it. Is there any other way.<br />         — Emily Dickinson",
+	"If I read a book [and] it makes my whole body so cold no fire can ever warm me, I know that is poetry. If I feel physically as if the top of my head were taken off, I know that is poetry. These are the only ways I know it. Is there any other way.<br />         — Emily Dickinson",
 	"One of my secret instructions to myself as a poet is: ‘Whatever you do, don’t be boring.’<br />         — Anne Sexton",
 	"Poets are shameless with their experiences: they exploit them.<br />         —Friedrich Nietzsche ",
 	"Poetry is a deal of joy and pain and wonder, with a dash of the dictionary.  <br />         — Khalil Gibran",
@@ -87,6 +87,7 @@ const authorquotations = [
   "You don't really need to find out<br />What's going on<br />You don't really want to know<br />Just how far it's gone<br />Just leave well enough alone<br />Eat your dirty laundry<br />     —Dirty Laundry  by Don Henley",
   "You must see with eyes unclouded by hate. See the good in that which is evil, and the evil in that which is good. Pledge yourself to neither side, but vow instead to preserve the balance that exists between the two.<br />    ― Hayao Miyazaki",
   "I will push my nail into her neck and make a lovely necklace out of her green bones<br />     —Weeds and Wild Flowers by Alice Oswald",
+  "I. An Agnostic<br />(<i>of his religious friend</i>)<br /><br />He often gazes on the air<br />And sees quite plain what is not there<br />Peopling the wholesome void with horrid shapes<br />Which he manoeuvres in religious japes.<br />And yet he is more gracious than I,<br />He has such a gracious personality.<br /><br />II. A Religious Man<br />(<i>of his agnostic friend</i>)<br /><br />He says that religious thought and all our nerviness<br />Is because of the great shock it was for all of us<br />Long, long ago when animal turned human being<br />Which is more than enough to account for everything...<br />And yet he is more gracious than I,<br />He has such a gracious personality.<br /><br />     —Stevie Smith, Selected Poems",
 ]
 
 
