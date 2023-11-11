@@ -37,7 +37,7 @@ def move_rename_bios(submissions_dir): #submissions_dir e.g. "C:\\Users\starr\\[
             bio_new_file_handle.close()
 
 def get_addr():
-    '''Returns the absolute path as input by the user upon query for directory containing author biography files.'''
+    '''Returns the absolute path as input by the user--upon query--for directory containing author biography files.'''
     #addr is the location of a folder/directory of bio.txt files no subdirectories allowed; not interested in content atm
     addr = input("Which directory contains author biography files?")
     return addr
@@ -65,7 +65,7 @@ def make_bio_HTML_files(addr, authors):
     for author in authors:
         name = author
         html_name = name.replace("_", " ")
-        bio_file = open(addr + "\\" + name + ".txt", "r")
+        bio_file = open(addr + "\\" + name + ".txt", "r", encoding="utf-8")
         bio = bio_file.read()
         bio = bio.replace("\n", "<br />")
         authorBioHTML = bioTemplate_string.replace("{{creator_name}}", name.replace('_', ' ')).replace("{{creator bio}}", bio).replace("â€™", "'")
@@ -98,9 +98,11 @@ def make_list_for_copyright_page(path):
     print(sorted_bio_HTML_files)
 
 
-def add_heart_to_bio():
+def fix_heart_to_bios():
+    #file_duplicate_hearts = '<a class="heart" href="../index.html"><img id="heart" src="../images/fullsizeoutput_1.jpeg" alt="Paper love from [AR]" width=100px></a>\n\t\t<a class="heart" href="../index.html"><img id="heart" src="../images/fullsizeoutput_1.jpeg" alt="Paper love from [AR]" width=100px></a>'
+    #print(file_duplicate_hearts)
     heart_html = '\n\t\t<a class="heart" href="../index.html"><img id="heart" src="../images/fullsizeoutput_1.jpeg" alt="Paper love from [AR]" width=100px></a>'
-    file_end = '\n\t</body>\n</html>'
+    file_end = '</body>\n</html>'
     files = os.listdir("../../bios")
     print(files)
     for file in files:
@@ -109,8 +111,12 @@ def add_heart_to_bio():
         filedata = ''
         with open(full_filepath, 'r', encoding='utf-8') as file_r:
             filedata = file_r.read()
-            filedata = filedata.replace(file_end, heart_html + file_end)
+            if heart_html in filedata:
+                print(file + ' contains heart home link')
+            filedata = filedata.replace(heart_html, "")
+        with open(full_filepath, 'w', encoding='utf-8') as file_w:
+            file_w.write(filedata)
+        filedata = filedata.replace(file_end, heart_html+file_end)
         with open(full_filepath, 'w', encoding='utf-8') as file_w:
             file_w.write(filedata)
             
-        
