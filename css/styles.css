@@ -218,6 +218,10 @@ div.review{
 	padding-top: 0px;
 }
 
+.nobackground ol{
+	color: blue;
+}
+
 h2.nobackground, h3.nobackground{
 	border: none;
 	background: transparent;
