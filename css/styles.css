@@ -343,6 +343,7 @@ p.bios a:active{
 p.databases {
 	width: 100%;
 	border:none;
+	display: inline;
 }
 
 
@@ -464,6 +465,14 @@ li.databases{
 	display: inline;
 	text-align: left;
 	border:none;
+}
+
+img.logos{
+	display: inline;
+	text-align: left;
+	border:none;
+	size:100px;
+	list-style-type: none;
 }
 
 
