@@ -70,7 +70,6 @@ const authorquotations = [
 	"If I read a book [and] it makes my whole body so cold no fire can ever warm me, I know that is poetry. If I feel physically as if the top of my head were taken off, I know that is poetry. These are the only ways I know it. Is there any other way.<br />         — Emily Dickinson",
 	"One of my secret instructions to myself as a poet is: ‘Whatever you do, don’t be boring.’<br />         — Anne Sexton",
 	"Poets are shameless with their experiences: they exploit them.<br />         —Friedrich Nietzsche ",
-	"Poetry is a deal of joy and pain and wonder, with a dash of the dictionary.  <br />         — Khalil Gibran",
 	"A poet is, before anything else, a person who is passionately in love with language.<br />         — W.H. Auden ",
 	"Poetry is not a turning loose of emotion, but an escape from emotion; it is not the expression of personality, but an escape from personality. But, of course, only those who have personality and emotions know what it means to want to escape from these things.<br />         — T.S. Eliot ",
 	"Poetry is not only dream and vision; it is the skeleton architecture of our lives. It lays the foundations for a future of change, a bridge across our fears of what has never been before.<br />         — Audre Lorde ",
@@ -88,6 +87,12 @@ const authorquotations = [
     "You must see with eyes unclouded by hate. See the good in that which is evil, and the evil in that which is good. Pledge yourself to neither side, but vow instead to preserve the balance that exists between the two.<br />    ― Hayao Miyazaki",
     "I will push my nail into her neck and make a lovely necklace out of her green bones<br />     —Weeds and Wild Flowers by Alice Oswald",
     "I. An Agnostic<br />(<i>of his religious friend</i>)<br /><br />He often gazes on the air<br />And sees quite plain what is not there<br />Peopling the wholesome void with horrid shapes<br />Which he manoeuvres in religious japes.<br />And yet he is more gracious than I,<br />He has such a gracious personality.<br /><br />II. A Religious Man<br />(<i>of his agnostic friend</i>)<br /><br />He says that religious thought and all our nerviness<br />Is because of the great shock it was for all of us<br />Long, long ago when animal turned human being<br />Which is more than enough to account for everything...<br />And yet he is more gracious than I,<br />He has such a gracious personality.<br /><br />     —Stevie Smith, Selected Poems",
+	"We can't change the country. Let us change the subject.<br />     —Stephen, of Ulysses (by James Joyce)",
+	"Pack it up, pack it in, let me begin<br />     —Jump Around, by House of Pain",
+	"The difference between poetry and rhetoric<br />is being ready to kill<br />yourself<br/>instead of your children.<br /><br />I am trapped on a desert of raw gunshot wounds<br />and a dead child dragging his shattered black<br />face off the edge of my sleep<br />blood from his punctured cheeks and shoulders<br />is the only liquid for miles<br />and my stomach<br />churns at the imagined taste while<br />my mouth splits into dry lips<br />without loyalty or reason<br />thirsting for the wetness of his blood<br />[...]<br />     —Power, by Audre Lorde",
+	"I am the girl<br />with the dark skin<br />whose shoes are thin<br />I am the girl<br />with the rotted teeth<br />I am the girl<br />with the wounded eye<br />and the melted ear.<br />     —Remember Me?, by Alice Walker",
+	"Must I wear only masks that don't sit for a Brit<br />Would you blush if I stripped from my native skin<br />     —Booking Khan Singh Kumar, by Daljit Nagra",
+	"Do you have the patience to wait until your mud settles and the water is clear?”<br ?>     ― Lao Tzu, Tao Te Ching ",
 ]
 
 
