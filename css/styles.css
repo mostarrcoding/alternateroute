@@ -31,6 +31,18 @@ html {
 
 }
 
+@font-face {
+	font-family: "Goudy Bookletter 1911";
+	src: url("./fonts/GoudyBookletter1911/GoudyBookletter1911-Regular.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "Gentium Book Plus";
+    src: url("./fonts/GentiumBookPlus/GentiumBookPlus-Regular.ttf") format('truetype');
+}
+
+
+
 body {
 	color: #B1AF8F;
 	line-height: 1.3;
