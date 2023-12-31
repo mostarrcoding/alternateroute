@@ -93,6 +93,8 @@ const authorquotations = [
 	"I am the girl<br />with the dark skin<br />whose shoes are thin<br />I am the girl<br />with the rotted teeth<br />I am the girl<br />with the wounded eye<br />and the melted ear.<br />     —Remember Me?, by Alice Walker",
 	"Must I wear only masks that don't sit for a Brit<br />Would you blush if I stripped from my native skin<br />     —Booking Khan Singh Kumar, by Daljit Nagra",
 	"Do you have the patience to wait until your mud settles and the water is clear?”<br ?>     ― Lao Tzu, Tao Te Ching ",
+	"There's no way that<br />We're gonna make it out of here in time<br />Only lovers<br />Only lovers gonna be left alive<br />     —Only Lovers Left Alive by The (International) Noise Conspiracy",
+	"It is a good day to die.<br />     —Protoss Corsair, Starcraft & Starcraft II"
 ]
 
 

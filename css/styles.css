@@ -87,9 +87,6 @@ li.bios a:link{
 	text-decoration:none;
 }
 
-/* clicked (active) bio link takes less space than native bio link
-fix this, make them the same size */
-
 li.databases a:link{
 	background:none;
 	border:none;
