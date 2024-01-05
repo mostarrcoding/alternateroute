@@ -215,6 +215,19 @@ div.content_area{
 	padding-top: 0px;
 }
 
+div.content_area2{
+	border: 1px dotted #B1AF8F;
+	border-radius:4px;
+	padding:0px;
+	background-color:#20060F;
+	color:#B1AF8F;
+	text-align:left;
+	width:800px;
+	margin:auto;
+	margin-top: 50px;
+	padding-top: 0px;
+}
+
 div.review{
 	border: 1px dotted #B1AF8F;
 	border-radius:4px;
@@ -468,13 +481,23 @@ li.zines{
 	display: inline;
 	text-align: left;
 	border:none;
-	width: 150px;
+}
+
+ul.database{
+	display:flex;
+	border: none;
+	margin:0;
+	padding:8x;
+	width:auto;
+	align-items:center;
 }
 
 li.databases{
 	display: inline;
 	text-align: left;
 	border:none;
+	display: flex;
+	margin:10px;
 }
 
 img.logos{
